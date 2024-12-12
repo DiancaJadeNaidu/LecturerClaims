@@ -1,0 +1,191 @@
+﻿@model ST10261874_PROG6212_POE.Models.Claims
+
+@{
+    ViewData["Title"] = "Submit Claim"; // set the title of the page
+}
+
+<h2>Submit Claim</h2>
+
+<!-- help icon section -->
+<div class="help-icon">
+    <img src="~/images/info.jpg" alt="Help" id="helpIcon" style="width: 30px; height: 30px; cursor: pointer;" />
+    <p id="helpText" style="margin-top: 5px; font-size: 14px; color: #007bff; cursor: pointer;">
+        Click on the icon if you need help
+    </p>
+</div>
+
+<!-- claim submission form -->
+<form asp-action="Claims" method="post" enctype="multipart/form-data" id="claimsForm">
+    <div class="form-group">
+        <label asp-for="LecturerID"></label> <!-- label for LecturerID -->
+        <input asp-for="LecturerID" class="form-control" required /> <!-- input for LecturerID with required validation -->
+        <span asp-validation-for="LecturerID" class="text-danger"></span> <!-- validation message for LecturerID -->
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FirstName"></label> <!-- label for FirstName -->
+        <input asp-for="FirstName" class="form-control" required /> <!-- input for FirstName with required validation -->
+        <span asp-validation-for="FirstName" class="text-danger"></span> <!-- validation message for FirstName -->
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastName"></label> <!-- label for LastName -->
+        <input asp-for="LastName" class="form-control" required /> <!-- input for LastName with required validation -->
+        <span asp-validation-for="LastName" class="text-danger"></span> <!-- validation message for LastName -->
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ClaimsPeriodsStart"></label> <!-- label for ClaimsPeriodsStart -->
+        <input asp-for="ClaimsPeriodsStart" type="date" class="form-control" required /> <!-- input for ClaimsPeriodsStart with date type and required validation -->
+        <span asp-validation-for="ClaimsPeriodsStart" class="text-danger"></span> <!-- validation message for ClaimsPeriodsStart -->
+    </div>
+
+    <div class="form-group">
+        <label asp-for="ClaimsPeriodsEnd"></label> <!-- label for ClaimsPeriodsEnd -->
+        <input asp-for="ClaimsPeriodsEnd" type="date" class="form-control" required /> <!-- input for ClaimsPeriodsEnd with date type and required validation -->
+        <span asp-validation-for="ClaimsPeriodsEnd" class="text-danger"></span> <!-- validation message for ClaimsPeriodsEnd -->
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HoursWorked"></label> <!-- label for HoursWorked -->
+        <input asp-for="HoursWorked" class="form-control" id="hoursWorked" required /> <!-- input for HoursWorked with required validation -->
+        <span asp-validation-for="HoursWorked" class="text-danger"></span> <!-- validation message for HoursWorked -->
+    </div>
+
+    <div class="form-group">
+        <label asp-for="RateHour"></label> <!-- label for RateHour -->
+        <input asp-for="RateHour" class="form-control" id="ratePerHour" required /> <!-- input for RateHour with required validation -->
+        <span asp-validation-for="RateHour" class="text-danger"></span> <!-- validation message for RateHour -->
+    </div>
+
+    <div class="form-group">
+        <label asp-for="DescriptionOfWork"></label> <!-- label for DescriptionOfWork -->
+        <input asp-for="DescriptionOfWork" class="form-control" /> <!-- input for DescriptionOfWork -->
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SupportingDocuments"></label>
+        <input asp-for="SupportingDocuments" type="file" class="form-control" multiple />
+        <small class="form-text text-muted">
+            Please upload your supporting documents. Only .pdf, .docx, and .xlsx files are allowed.
+            Maximum file size is 5 MB per file.
+        </small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button> <!-- submit button for the form -->
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial"); // render validation scripts
+    }
+
+    <!-- include jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- include Toastr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
+
+<script>
+    $(document).ready(function () {
+        $('#helpIcon').on('click', function () {
+            toastr.info('<strong>Help Information</strong><br>' +
+                'Fill in all required fields.<br>' +
+                'Ensure files are properly uploaded.<br>' +
+                'Contact support if you encounter issues.', 'Help', {
+                "positionClass": "toast-top-center",
+                "timeOut": "10000",
+                "closeButton": true,
+                "progressBar": true,
+                "extendedTimeOut": "10000"
+            });
+        });
+
+        $('#claimsForm').on('submit', function (event) {
+            event.preventDefault(); // prevent default form submission
+
+            // clear previous toastr messages
+            toastr.clear();
+
+            // validate required fields
+            var isValid = true;
+            $('#claimsForm input[required]').each(function () {
+                if ($(this).val() === '') {
+                    isValid = false;
+                    toastr.error('Error: Missing required fields.', 'Form Error', {
+                        "positionClass": "toast-top-right",
+                        "timeOut": "5000",
+                        "closeButton": true,
+                        "progressBar": true,
+                        "backgroundColor": "#d9534f"
+                    });
+                    return false; // break out of the loop
+                }
+            });
+
+            // check if file is uploaded
+            var fileInput = $('#claimsForm input[type="file"]');
+            if (fileInput.get(0).files.length === 0) {
+                isValid = false;
+                toastr.error('Error: No file uploaded. Please attach supporting documents.', 'File Upload Error', {
+                    "positionClass": "toast-top-right",
+                    "timeOut": "5000",
+                    "closeButton": true,
+                    "progressBar": true,
+                    "backgroundColor": "#d9534f"
+                });
+                return; // prevent further execution
+            }
+
+            // check if end date is before start date
+            var startDate = new Date($('#ClaimsPeriodsStart').val());
+            var endDate = new Date($('#ClaimsPeriodsEnd').val());
+
+            if (endDate < startDate) {
+                isValid = false;
+                toastr.error('Error: End date cannot be before start date.', 'Date Error', {
+                    "positionClass": "toast-top-right",
+                    "timeOut": "5000",
+                    "closeButton": true,
+                    "progressBar": true,
+                    "backgroundColor": "#d9534f"
+                });
+                return; // prevent further execution
+            }
+
+            if (!isValid) {
+                return; // stop form submission if any error occurred
+            }
+
+            // if valid, calculate total amount
+            var hoursWorked = parseFloat($('#hoursWorked').val()) || 0;
+            var ratePerHour = parseFloat($('#ratePerHour').val()) || 0;
+            var totalAmount = hoursWorked * ratePerHour;
+
+            // show amount calculated toastr
+            toastr.success('Total amount due: ' + totalAmount.toFixed(2), 'Amount Calculated', {
+                "positionClass": "toast-top-right",
+                "timeOut": "5000",
+                "closeButton": true,
+                "progressBar": true
+            });
+
+            // show submission success toastr after a delay
+            setTimeout(function () {
+                toastr.success('Claim has been submitted successfully!', 'Submission Successful', {
+                    "positionClass": "toast-top-right",
+                    "timeOut": "5000",
+                    "closeButton": true,
+                    "progressBar": true
+                });
+
+                // delay form submission to allow toastr to show
+                setTimeout(function () {
+                    $('#claimsForm')[0].submit(); // submit the form
+                }, 1000);
+            }, 1000);
+        });
+    });
+</script>
+}

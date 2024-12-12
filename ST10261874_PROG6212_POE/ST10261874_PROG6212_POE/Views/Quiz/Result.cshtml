@@ -1,0 +1,8 @@
+﻿@{
+    ViewBag.Title = "Quiz Result";
+}
+
+<div class="container mt-5">
+    <h2>Your Score: @ViewBag.Score / 5</h2>
+    <a href="@Url.Action("Index", "Quiz")" class="btn btn-secondary">Try Again</a>
+</div>

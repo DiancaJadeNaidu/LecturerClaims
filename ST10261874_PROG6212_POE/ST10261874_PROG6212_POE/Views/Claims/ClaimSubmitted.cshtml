@@ -1,0 +1,59 @@
+﻿@model IEnumerable<ST10261874_PROG6212_POE.Models.Claims>
+
+<h2>Claim Status</h2>
+
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p> <!-- display a message if no claims are found -->
+}
+else
+{
+    <!-- claim status table -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th>First Name</th> 
+                <th>Last Name</th> 
+                <th>Claims Periods Start</th>
+                <th>Claims Periods End</th>
+                <th>Total Hours</th> 
+                <th>Rate per Hour</th> 
+                <th>Total Amount</th> 
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.FirstName</td>
+                    <td>@claim.LastName</td>
+                    <td>@claim.ClaimsPeriodsStart.ToShortDateString()</td> <!-- display start date of claims period -->
+                    <td>@claim.ClaimsPeriodsEnd.ToShortDateString()</td> <!-- display end date of claims period -->
+                    <td>@claim.HoursWorked</td> <!-- display total hours worked -->
+                    <td>@claim.RateHour</td> <!-- display rate per hour -->
+                    <td>@(claim.HoursWorked * claim.RateHour)</td> <!-- calculate and display total amount -->
+                    <td>
+                        <!-- display status -->
+                        @if (claim.IsApproved)
+                        {
+                            <span class="badge badge-success text-approved">Approved</span> <!-- status for approved claims -->
+                        }
+                        else if (claim.IsRejected)
+                        {
+                            <span class="badge badge-danger text-rejected">Rejected</span> <!-- status for rejected claims -->
+                        }
+                        else if (claim.IsVerified)
+                        {
+                            <span class="badge badge-warning">Verified</span> <!-- status for verified claims -->
+                        }
+                        else
+                        {
+                            <span class="badge badge-secondary">Submitted</span> <!-- status for submitted claims -->
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

@@ -1,0 +1,381 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ST10261874_PROG6212_POE.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ST10261874_PROG6212_POE.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\Images\\home 2 gif.gif",
+      "PackagePath": "staticwebassets\\Images\\home 2 gif.gif"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\Images\\home 2.gif",
+      "PackagePath": "staticwebassets\\Images\\home 2.gif"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\Images\\home 3 gif.gif",
+      "PackagePath": "staticwebassets\\Images\\home 3 gif.gif"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\Images\\home gif.gif",
+      "PackagePath": "staticwebassets\\Images\\home gif.gif"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\Images\\info.jpg",
+      "PackagePath": "staticwebassets\\Images\\info.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\04609cfb-ab67-4176-8e0b-f9ee97c34ec3.docx",
+      "PackagePath": "staticwebassets\\uploads\\04609cfb-ab67-4176-8e0b-f9ee97c34ec3.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\07384eb8-e90d-4106-a663-84611fa3fd28.docx",
+      "PackagePath": "staticwebassets\\uploads\\07384eb8-e90d-4106-a663-84611fa3fd28.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\0a80e329-9398-42d7-8e5f-b47131d0cac3.pub",
+      "PackagePath": "staticwebassets\\uploads\\0a80e329-9398-42d7-8e5f-b47131d0cac3.pub"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\1369dbe3-ef6b-4154-b4bc-b4d506561d72.docx",
+      "PackagePath": "staticwebassets\\uploads\\1369dbe3-ef6b-4154-b4bc-b4d506561d72.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\16389a08-1e48-4a72-be09-e8c25e8db9fe.docx",
+      "PackagePath": "staticwebassets\\uploads\\16389a08-1e48-4a72-be09-e8c25e8db9fe.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\2042906f-3504-426b-bd86-f7185bb398c0.docx",
+      "PackagePath": "staticwebassets\\uploads\\2042906f-3504-426b-bd86-f7185bb398c0.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\229eb54f-ed9c-4c5f-bc4b-87b78a55f1d3.pdf",
+      "PackagePath": "staticwebassets\\uploads\\229eb54f-ed9c-4c5f-bc4b-87b78a55f1d3.pdf"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\2a5c3e13-47dc-4ee1-ad22-a92e0854e9de.docx",
+      "PackagePath": "staticwebassets\\uploads\\2a5c3e13-47dc-4ee1-ad22-a92e0854e9de.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\50e892f4-2f3b-4890-b797-2861b58c76bc.docx",
+      "PackagePath": "staticwebassets\\uploads\\50e892f4-2f3b-4890-b797-2861b58c76bc.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\5623bc6b-aaba-4aee-bbe3-117ccad2ca8a.pdf",
+      "PackagePath": "staticwebassets\\uploads\\5623bc6b-aaba-4aee-bbe3-117ccad2ca8a.pdf"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\5f87ccdf-61f8-4ef8-bbc8-52fd1169fad3.docx",
+      "PackagePath": "staticwebassets\\uploads\\5f87ccdf-61f8-4ef8-bbc8-52fd1169fad3.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\72a1eceb-894b-4a0c-9423-5b28f8429014.docx",
+      "PackagePath": "staticwebassets\\uploads\\72a1eceb-894b-4a0c-9423-5b28f8429014.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\749665b9-c029-473f-8fab-b2b4ca802db3.docx",
+      "PackagePath": "staticwebassets\\uploads\\749665b9-c029-473f-8fab-b2b4ca802db3.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\76bdd6cd-b935-4b1f-a298-7cba71674f42.docx",
+      "PackagePath": "staticwebassets\\uploads\\76bdd6cd-b935-4b1f-a298-7cba71674f42.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\7e10e785-4c35-4401-91e5-003ad5149f22.pdf",
+      "PackagePath": "staticwebassets\\uploads\\7e10e785-4c35-4401-91e5-003ad5149f22.pdf"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\85564f65-7ba0-480e-a954-81f9fbf76e71.docx",
+      "PackagePath": "staticwebassets\\uploads\\85564f65-7ba0-480e-a954-81f9fbf76e71.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\8c1823d5-92e3-471b-9bfd-d26e4a11ce5e.docx",
+      "PackagePath": "staticwebassets\\uploads\\8c1823d5-92e3-471b-9bfd-d26e4a11ce5e.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\92e72e46-8834-4b20-87b4-678936bf558b.docx",
+      "PackagePath": "staticwebassets\\uploads\\92e72e46-8834-4b20-87b4-678936bf558b.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\a2f24002-322e-4561-a9fc-75785dbb9568.docx",
+      "PackagePath": "staticwebassets\\uploads\\a2f24002-322e-4561-a9fc-75785dbb9568.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\a4f0253b-dc7f-43b2-b4a2-8373e7e50ab9.docx",
+      "PackagePath": "staticwebassets\\uploads\\a4f0253b-dc7f-43b2-b4a2-8373e7e50ab9.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\aa6c4107-e7df-457b-83d8-1dc0fd996cab.docx",
+      "PackagePath": "staticwebassets\\uploads\\aa6c4107-e7df-457b-83d8-1dc0fd996cab.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\bfe7b494-e56b-40a4-b786-a1ea6afbd37d.docx",
+      "PackagePath": "staticwebassets\\uploads\\bfe7b494-e56b-40a4-b786-a1ea6afbd37d.docx"
+    },
+    {
+      "Id": "C:\\Users\\GAMING PC\\OneDrive\\Desktop\\Visual Studio\\ST10261874_PROG6212_POE\\ST10261874_PROG6212_POE\\wwwroot\\uploads\\e36fc8ab-6537-494b-ab43-0e68667f1d0d.pub",
+      "PackagePath": "staticwebassets\\uploads\\e36fc8ab-6537-494b-ab43-0e68667f1d0d.pub"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ST10261874_PROG6212_POE.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ST10261874_PROG6212_POE.props",
+      "PackagePath": "build\\ST10261874_PROG6212_POE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ST10261874_PROG6212_POE.props",
+      "PackagePath": "buildMultiTargeting\\ST10261874_PROG6212_POE.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ST10261874_PROG6212_POE.props",
+      "PackagePath": "buildTransitive\\ST10261874_PROG6212_POE.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

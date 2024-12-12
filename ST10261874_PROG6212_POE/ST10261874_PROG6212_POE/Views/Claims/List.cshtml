@@ -1,0 +1,131 @@
+﻿@model IEnumerable<ST10261874_PROG6212_POE.Models.Claims>
+
+@{
+    ViewData["Title"] = "Claims List";
+}
+
+@if (User.IsInRole("Programme Coordinator") || User.IsInRole("Academic Manager") || User.IsInRole("Admin"))
+{
+    <h2>Claims List</h2>
+
+    <div>
+        <input type="text" id="filterInput"
+               placeholder="Search by First Name or Last Name..."
+               onkeyup="filterTable()"
+               style="width: 300px;" />
+
+        <select id="statusFilter" onchange="filterTable()">
+            <option value="">All Statuses</option>
+            <option value="approved">Approved</option>
+            <option value="rejected">Rejected</option>
+        </select>
+    </div>
+
+    <table class="table table-striped" id="claimsTable">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Lecturer ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Period Start</th>
+                <th>Period End</th>
+                <th>Hours Worked</th>
+                <th>Rate per Hour</th>
+                <th>Total Amount</th>
+                <th>Description</th>
+                <th>Files</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr data-status="@(claim.IsApproved ? "approved" : claim.IsRejected ? "rejected" : "pending")">
+                    <td>@claim.Id</td>
+                    <td>@claim.LecturerID</td>
+                    <td>@claim.FirstName</td>
+                    <td>@claim.LastName</td>
+                    <td>@claim.ClaimsPeriodsStart.ToShortDateString()</td>
+                    <td>@claim.ClaimsPeriodsEnd.ToShortDateString()</td>
+                    <td>@claim.HoursWorked</td>
+                    <td>@claim.RateHour</td>
+                    <td>@claim.TotalAmount</td>
+                    <td>@claim.DescriptionOfWork</td>
+                    <td>
+                        @if (claim.SupportingDocumentFileNames != null && claim.SupportingDocumentFileNames.Any())
+                        {
+                            foreach (var fileName in claim.SupportingDocumentFileNames)
+                            {
+                                <a href="@Url.Action("DownloadFile", new { fileName = fileName })" class="btn btn-info btn-sm" title="Download file">@fileName</a>
+                                <br />
+                            }
+                        }
+                        else
+                        {
+                            <span>No file</span>
+                        }
+                    </td>
+                    <td>
+                        <div class="btn-group" role="group" aria-label="Claim Actions">
+                            @if (!claim.IsVerified)
+                            {
+                                <a href="@Url.Action("Verify", new { id = claim.Id })" class="btn btn-primary btn-sm" title="Verify claim">Verify</a>
+                            }
+                            @if (claim.IsVerified)
+                            {
+                                @if (!claim.IsApproved && !claim.IsRejected)
+                                {
+                                    <a href="@Url.Action("Approve", new { id = claim.Id })" class="btn btn-success btn-sm" title="Approve claim">Approve</a>
+                                    <a href="@Url.Action("Reject", new { id = claim.Id })" class="btn btn-danger btn-sm" title="Reject claim">Reject</a>
+                                }
+                                else if (claim.IsApproved)
+                                {
+                                    <span class="badge badge-success" title="Claim approved">Approved</span>
+                                }
+                                else if (claim.IsRejected)
+                                {
+                                    <span class="badge badge-danger" title="Claim rejected">Rejected</span>
+                                }
+                            }
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<script>
+    function filterTable() {
+        const input = document.getElementById("filterInput");
+        const filter = input.value.toLowerCase();
+        const statusFilter = document.getElementById("statusFilter").value;
+        const table = document.getElementById("claimsTable");
+        const tr = table.getElementsByTagName("tr");
+
+        for (let i = 1; i < tr.length; i++) { // Start from 1 to skip header row
+            const tdFirstName = tr[i].getElementsByTagName("td")[2]; // First Name
+            const tdLastName = tr[i].getElementsByTagName("td")[3]; // Last Name
+            const claimStatus = tr[i].getAttribute("data-status"); // Get the claim status
+
+            const txtValueFirstName = tdFirstName.textContent || tdFirstName.innerText;
+            const txtValueLastName = tdLastName.textContent || tdLastName.innerText;
+
+            const matchesName =
+                txtValueFirstName.toLowerCase().indexOf(filter) > -1 ||
+                txtValueLastName.toLowerCase().indexOf(filter) > -1;
+
+            const matchesStatus =
+                statusFilter === "" ||
+                (statusFilter === "approved" && claimStatus === "approved") ||
+                (statusFilter === "rejected" && claimStatus === "rejected");
+
+            if (matchesName && matchesStatus) {
+                tr[i].style.display = ""; // Show the row
+            } else {
+                tr[i].style.display = "none"; // Hide the row
+            }
+        }
+    }
+</script>
